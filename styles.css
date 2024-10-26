@@ -7,4 +7,82 @@ body{
     font-weight: 400;
     font-style: normal;
     max-width: 1440px;
+    color: #4D4F62;
+    background-color: #FAFAFA;
+}
+.container{
+    margin: 80px 165px;
+
+}
+.header {
+    max-width: 540px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 36px;
+    letter-spacing: 0.25px;
+    line-height: 51px;
+    margin: 0 auto;
+    max-width: 446px;
+}
+.header span{
+    font-weight: 200;
+}
+.head-description {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    opacity: 0.5;
+    margin-top: 16px;
+}
+.cards-outer {
+    margin-top: 72px;
+}
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+
+}
+.card-1{
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5), inset 0px 4px 0px 0px #44D3D2;
+    grid-row: span 2;
+    align-self: center;
+}
+.card-2{
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5), inset 0px 4px 0px 0px #EA5454;
+}
+.card-3{
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5), inset 0px 4px 0px 0px #FCAE4A;
+    grid-row: span 2;
+    align-self: center;
+}
+.card-4{
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5), inset 0px 4px 0px 0px #549EF2;
+    
+}
+.card-item {
+    width: 350px;
+    max-height: 250px;
+    border-radius: 8px;
+    padding: 32px;
+}
+.card-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-text {
+    font-size: 13px;
+    opacity: 0.5;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    margin: 6px 0 36px;
+}
+.img-icon {
+    text-align: end;
+    line-height: 10px;
+
 }
