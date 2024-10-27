@@ -89,7 +89,7 @@ h1{
 
 @media screen and (max-width: 375px) {
     .container{
-        margin: 85px 32px 78px;
+        margin: 85px auto 78px;
         width: 311px;
     }
     h1{
