@@ -65,7 +65,7 @@ h1{
 }
 .card-item {
     width: 350px;
-    max-height: 250px;
+    height: 250px;
     border-radius: 8px;
     padding: 32px;
 }
@@ -84,5 +84,37 @@ h1{
 .img-icon {
     text-align: end;
     line-height: 10px;
+}
 
+
+@media screen and (max-width: 375px) {
+    .container{
+        margin: 85px 32px 78px;
+        width: 311px;
+    }
+    h1{
+        font-size: 24px;
+        letter-spacing: 0.17px;
+        line-height: 35px;
+    }
+    .cards-outer {
+        margin-top: 76px;
+    }
+    .cards-grid{
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    .card-item{
+        width: 311px;
+        height: 222px;
+        padding: 27px 28px 28px 29px;
+    }
+    .card-text{
+        margin-top: 1px;
+        margin-bottom: 33px;
+    }
+    .img-icon img{
+        width: 57px;
+        height: 57px;
+    }
 }
